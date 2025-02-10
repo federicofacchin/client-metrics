@@ -1,0 +1,13 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          cognito:
+            redirect-uri: http://localhost:8080/login/oauth2/code/cognito
+  datasource:
+    username: postgres
+    password: postgres
+    url: jdbc:postgresql://localhost:5432/challenge
+    docker:
+      enabled : true

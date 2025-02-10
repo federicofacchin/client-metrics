@@ -1,0 +1,14 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          cognito:
+            redirect-uri: http://challenge-env.eba-s2sqww3q.us-east-2.elasticbeanstalk.com/login/oauth2/code/cognito
+  datasource:
+    username: postgres
+    password: postgres
+    url: jdbc:postgresql://challenge.c5asyu8iwxqc.us-east-2.rds.amazonaws.com:5432/facchindb
+    docker:
+      enabled : false
+
