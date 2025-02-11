@@ -1,4 +1,4 @@
-# Lcient Metrics Challenge
+# Client Metrics Challenge
 
 ## Breve descripción:
 
@@ -139,3 +139,7 @@ establecer un sistema de monitoreo , pensaba en un principio incorporar toda la 
 Integrar Cognito en la version deployada en EC2.
 
 Otra consideracion , al ser deployado en AWS permite facilmente escalarlo , ya que podria en teoria levantar mas instancias del micro-servicio , o aumentar los recursos de la maquina virtual. 
+
+###Aclaracion importante
+Al ser una aplicacion de demo/challenge me olvide de comentar que otra buena practica recomendada es importar manualmente las dependencias que estan marcadas con warning ya que tienen vulnerabiliades, se podria por ejemplo importar la dependencia particular que presenta estas vulnerabilidades con una version mas actualizada para asi evitar comprometer el aplicativo en terminos de seguridad.
+
