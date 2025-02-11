@@ -1,17 +1,6 @@
 spring:
-  security:
-    oauth2:
-      client:
-        registration:
-          cognito:
-            client-id: 3ub8qsc17e3cahpefuqt3oifla
-            client-secret: 1vqojafoos9el67br1punb9g049e89dcllhmr1i0smedv07gbspp
-            redirect-uri: http://localhost:8080/login/oauth2/code/cognito
-        provider:
-          cognito:
-            issuer-uri: https://cognito-idp.us-east-2.amazonaws.com/us-east-2_BqoZK3xsB
   profiles:
-    active: prod
+    active: dev
 
   springdoc:
     version: '@springdoc.version@'
